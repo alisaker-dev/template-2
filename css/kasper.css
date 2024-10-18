@@ -151,10 +151,15 @@ header nav .toggle-menu {
     display: none;
   }
 }
+@media (width: 768px) {
+  header nav .toggle-menu {
+    display: flex;
+  }
+}
 header nav ul {
   display: flex;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header nav ul {
     display: none;
   }
@@ -164,7 +169,7 @@ header nav ul {
     position: absolute;
     top: 100%;
     left: 15px;
-    width: 100%;
+    width: 95%;
     background-color: rgb(0 0 0 /50%);
   }
   header nav ul li a {
